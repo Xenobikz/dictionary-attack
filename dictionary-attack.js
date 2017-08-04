@@ -17,7 +17,7 @@ window.onload = init;
 function checkPassword() {
   var password = document.getElementById("pw").value;
   for(var i= 0;i<wordsList.length; i++) {
-    if(wordsList[i]=password) {
+    if(password == wordsList[i]) {
       document.getElementById("results").innerHTML = "password = sucks";
       break;
    }
