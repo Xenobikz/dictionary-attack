@@ -15,14 +15,13 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-  function checkPassword() {
-  var duck = document.getElementById("pw").value;
-
+  var password = document.getElementById("pw").value;
   for(var i= 0;i<wordsList.length; i++) {
-  if(wordsList[i]= )
-
-  }
-document.getElementById("demo").innerHTML
-}
-
+    if(wordsList[i]=password) {
+      document.getElementById("demo").innerHTML = "password = sucks";
+      break;
+   }
+ }
+  
+  
 }
