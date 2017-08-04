@@ -15,5 +15,14 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
+  function checkPassword() {
+  var duck = document.getElementById("pw").value;
+
+  for(var i= 0;i<wordsList.length; i++) {
+  if(wordsList[i]= )
+
+  }
+document.getElementById("demo").innerHTML
+}
 
 }
