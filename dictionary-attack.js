@@ -20,6 +20,8 @@ function checkPassword() {
     if(wordsList[i]=password) {
       document.getElementById("demo").innerHTML;
       break;
-  }
+   }
  }
+  
+  
 }
